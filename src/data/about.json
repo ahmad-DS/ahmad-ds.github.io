@@ -1,0 +1,43 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": "I'm a Full Stack Developer with 2.5+ years of experience, specializing in backend development. My journey into software engineering started after earning a degree in Mechanical Engineering, driven by curiosity and a passion for building software. Today, I build scalable web applications using modern technologies and continuously expand my knowledge in system design, low-level design, and software architecture."
+  },
+  "timeline": [
+    {
+      "year": "Present",
+      "type": "growth",
+      "title": "Continuous Learning",
+      "subtitle": "Backend & System Design",
+      "description": "Actively learning Low-Level Design, System Design, distributed systems, cloud technologies, and software architecture to build scalable and maintainable applications."
+    },
+    {
+      "year": "2025",
+      "type": "career",
+      "title": "Full Stack Developer",
+      "subtitle": "Current Organization",
+      "description": "Working primarily on backend systems, scalable APIs, databases, and production-grade applications while collaborating in a monorepo architecture."
+    },
+    {
+      "year": "2023",
+      "type": "career",
+      "title": "Software Engineer",
+      "subtitle": "Quintype Technologies",
+      "description": "Started my professional journey as a Full Stack Developer, building internal products, REST APIs, authentication systems, and working with PostgreSQL, Node.js, and React."
+    },
+    {
+      "year": "2021",
+      "type": "learning",
+      "title": "Transition to Software Development",
+      "subtitle": "Self-Learning & MERN Stack",
+      "description": "Learned JavaScript, React, Node.js, Express, MongoDB, SQL, Git, and Data Structures & Algorithms through hands-on projects."
+    },
+    {
+      "year": "2020",
+      "type": "education",
+      "title": "Bachelor's in Mechanical Engineering",
+      "subtitle": "Graduated in Mechanical Engineering",
+      "description": "Completed my engineering degree and developed an interest in software development."
+    } 
+  ]
+}

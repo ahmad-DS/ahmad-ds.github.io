@@ -1,0 +1,84 @@
+{
+  "skills": {
+    "technical": {
+      "title": "Technical Skills",
+      "categories": [
+        {
+          "name": "Languages",
+          "items": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "items": [
+            "React",
+            "Redux Toolkit",
+            "HTML5",
+            "CSS3",
+            "Tailwind CSS",
+            "Shadcn/UI"
+          ]
+        },
+        {
+          "name": "Backend",
+          "items": [
+            "Node.js",
+            "Express.js",
+            "REST API",
+            "Authentication (JWT, Supabase Auth)"
+          ]
+        },
+        {
+          "name": "Databases",
+          "items": [
+            "PostgreSQL",
+            "MongoDB",
+            "Redis"
+          ]
+        },
+        {
+          "name": "Tools & Technologies",
+          "items": [
+            "Git",
+            "GitHub",
+            "Docker",
+            "Postman",
+            "Supabase",
+            "Render",
+            "VS Code"
+          ]
+        },
+        {
+          "name": "Concepts",
+          "items": [
+            "Data Structures & Algorithms",
+            "Object-Oriented Programming",
+            "SOLID Principles",
+            "Low-Level Design",
+            "System Design",
+            "API Design"
+          ]
+        }
+      ]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "items": [
+        "Problem Solving",
+        "Analytical Thinking",
+        "Team Collaboration",
+        "Communication",
+        "Adaptability",
+        "Continuous Learning",
+        "Time Management",
+        "Attention to Detail",
+        "Ownership",
+        "Debugging"
+      ]
+    }
+  }
+}

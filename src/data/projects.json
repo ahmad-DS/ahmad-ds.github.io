@@ -1,0 +1,109 @@
+{
+  "projects": [
+    {
+      "id": "clinic-management-system",
+      "title": "Clinic Management System",
+      "tagline": "A modern patient and appointment management platform.",
+      "description": "A full-stack clinic management application that enables patient registration, appointment booking, medical history management with image uploads, and secure authentication. Designed with scalability and clean architecture in mind.",
+      "image": "/images/projects/clinic-management.webp",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Supabase",
+        "Docker"
+      ],
+      "features": [
+        "Patient Management",
+        "Appointment Scheduling",
+        "Medical History",
+        "Image Uploads",
+        "Authentication",
+        "REST API"
+      ],
+      "category": "Full Stack",
+      "status": "In Progress",
+      "featured": true,
+      "github": "https://github.com/username/clinic-management",
+      "liveDemo": "https://clinic.example.com"
+    },
+    {
+      "id": "todo-app",
+      "title": "TaskFlow",
+      "tagline": "A productivity-focused task management application.",
+      "description": "A MERN stack Todo application with authentication, task prioritization, CRUD operations, and responsive UI. Built to practice scalable frontend architecture and backend API development.",
+      "image": "/images/projects/todo-app.webp",
+      "technologies": [
+        "React",
+        "Redux Toolkit",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT"
+      ],
+      "features": [
+        "Authentication",
+        "Task CRUD",
+        "Priority Management",
+        "Responsive Design"
+      ],
+      "category": "Full Stack",
+      "status": "Completed",
+      "featured": false,
+      "github": "https://github.com/username/taskflow",
+      "liveDemo": "https://taskflow.example.com"
+    },
+    {
+      "id": "splitwise-clone",
+      "title": "Splitwise Clone",
+      "tagline": "Track expenses and settle balances effortlessly.",
+      "description": "An expense sharing application that allows users to create groups, add expenses, calculate balances, and manage settlements using efficient backend business logic.",
+      "image": "/images/projects/splitwise.webp",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Redis"
+      ],
+      "features": [
+        "Expense Tracking",
+        "Group Management",
+        "Balance Calculation",
+        "Settlement History"
+      ],
+      "category": "Full Stack",
+      "status": "In Progress",
+      "featured": false,
+      "github": "https://github.com/username/splitwise-clone",
+      "liveDemo": "https://splitwise.example.com"
+    },
+    {
+      "id": "portfolio",
+      "title": "Developer Portfolio",
+      "tagline": "A personal portfolio showcasing my work and journey.",
+      "description": "A modern, responsive portfolio website built with React and TypeScript featuring smooth animations, project showcase, timeline, and contact section.",
+      "image": "/images/projects/portfolio.webp",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
+      "features": [
+        "Responsive Design",
+        "Dark Mode",
+        "Project Showcase",
+        "Animations"
+      ],
+      "category": "Frontend",
+      "status": "Completed",
+      "featured": false,
+      "github": "https://github.com/username/portfolio",
+      "liveDemo": "https://yourportfolio.com"
+    }
+  ]
+}
