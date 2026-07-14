@@ -5,7 +5,7 @@ export default function Skills() {
     const {technical, soft} = skills;
     console.log(soft);
     return (
-        <div id="skills" className={styles.skills}>
+        <section id="skills" className={styles.skills}>
             <h1>My Skills</h1>
 
             <div>
@@ -19,6 +19,6 @@ export default function Skills() {
             <div>
 
             </div>
-        </div>
+        </section>
     )
 }
