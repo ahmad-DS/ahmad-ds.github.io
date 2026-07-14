@@ -13,6 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, description,image, tech
             {technologies.map(tech => (
                 <label htmlFor={tech}>[{tech}]</label>
             ))}
+            <p>{description}</p>
         </div>
     )
 
