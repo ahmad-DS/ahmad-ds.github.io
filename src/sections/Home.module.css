@@ -1,3 +1,4 @@
+/*
 .home {
     min-height: 100vh;
     padding: 4rem 2rem;
@@ -17,7 +18,6 @@
 }
 
 .rightCol {
-    /* max-width: 40%; */
     display: flex;
     flex-direction: row-reverse;
     width: 50%;
@@ -36,4 +36,113 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+*/
+
+.home {
+    min-height: 100vh;
+    padding: 6rem 2rem 4rem 2rem; /* Added generous top padding to clear fixed navbar */
+    scroll-margin-top: 80px;
+    display: flex;
+    flex-direction: column-reverse; /* Stacks image on top on mobile screens */
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Column Styling */
+.leftCol {
+    display: flex;
+    flex: 1.2;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.intro {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    max-width: 540px;
+}
+
+/* Resume Button Styling */
+.resumeButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--accent);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.8rem 1.75rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.resumeButton:hover {
+    background-color: var(--accent-light);
+    color: var(--bg-primary);
+}
+
+.resumeButton:active {
+    transform: scale(0.98);
+}
+
+/* Right Column Styling */
+.rightCol {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+/* Rounded Organic Shape for Profile Container */
+.imageCard {
+    width: 280px;
+    height: 280px;
+    border: 4px solid var(--border-color);
+    overflow: hidden;
+    border-radius: 60% 40% 60% 40% / 40% 60% 40% 60%; /* Organic circular blob style */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.imageCard:hover {
+    transform: scale(1.03) rotate(1deg);
+    border-color: var(--accent-light);
+}
+
+.profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Desktop Responsive Layout (Screens wider than 768px) */
+@media (min-width: 768px) {
+    .home {
+        flex-direction: row; /* Returns to side-by-side layout */
+        gap: 4rem;
+    }
+
+    .leftCol {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .imageCard {
+        width: 360px;
+        height: 360px;
+    }
 }

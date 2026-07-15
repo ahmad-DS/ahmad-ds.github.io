@@ -1,3 +1,4 @@
+/*
 .projects {
     min-height: 100vh;
     scroll-margin-top: 80px;
@@ -6,5 +7,26 @@
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 2rem;
+}
+*/
+.projects {
+    min-height: 100vh;
+    padding: 6rem 2rem;
+    scroll-margin-top: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.gridContainer {
+    display: grid;
+    /* Automatically creates columns that are at least 320px wide, fitting as many as possible */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
 }

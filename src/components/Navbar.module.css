@@ -1,3 +1,4 @@
+/*
 .container {
     display: flex;
     justify-content:space-between;
@@ -21,3 +22,89 @@
 /* .flexItem2 > div {
     padding: 0 0.5rem;
 } */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2rem;
+    
+    /* Stickiness & Sizing */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Keeps navbar on top of all section content */
+    
+    /* Modern Frosty Glass Effect */
+    background-color: rgba(15, 23, 42, 0.8); /* Semi-transparent dark slate */
+    backdrop-filter: blur(12px);             /* Blurs content underneath */
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(51, 65, 85, 0.5); /* Subtle border line */
+}
+
+/* Brand Logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    color: var(--text-primary);
+}
+
+.accentDot {
+    color: var(--accent-light);
+}
+
+/* Nav Links Menu */
+.flexItem2 {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navLink a {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+/* Interactive Hover States */
+.navLink a:hover {
+    color: var(--accent-light);
+}
+
+/* Styling specifically for the Resume Button inside the navbar */
+.resumeLink a {
+    background-color: rgba(13, 148, 136, 0.1);
+    color: var(--accent-light);
+    border: 1px solid rgba(13, 148, 136, 0.3);
+    padding: 0.4rem 0.85rem;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.resumeLink a:hover {
+    background-color: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent);
+}
+
+/* Mobile Responsiveness: Collapses or simplifies links on small screens */
+@media (max-width: 640px) {
+    .container {
+        padding: 1rem;
+    }
+    .flexItem2 {
+        gap: 0.75rem;
+    }
+    .navLink a {
+        font-size: 0.85rem;
+    }
+    .resumeLink a {
+        padding: 0.3rem 0.6rem;
+    }
+}
