@@ -27,7 +27,7 @@
       "status": "In Progress",
       "featured": true,
       "github": "https://github.com/username/clinic-management",
-      "liveDemo": "https://clinic.example.com"
+      "liveLink": "https://clinic.example.com"
     },
     {
       "id": "todo-app",
@@ -53,7 +53,7 @@
       "status": "Completed",
       "featured": false,
       "github": "https://github.com/username/taskflow",
-      "liveDemo": "https://taskflow.example.com"
+      "liveLink": "https://taskflow.example.com"
     },
     {
       "id": "splitwise-clone",
@@ -79,7 +79,7 @@
       "status": "In Progress",
       "featured": false,
       "github": "https://github.com/username/splitwise-clone",
-      "liveDemo": "https://splitwise.example.com"
+      "liveLink": "https://splitwise.example.com"
     },
     {
       "id": "portfolio",
@@ -103,7 +103,7 @@
       "status": "Completed",
       "featured": false,
       "github": "https://github.com/username/portfolio",
-      "liveDemo": "https://yourportfolio.com"
+      "liveLink": "https://yourportfolio.com"
     }
   ]
 }
