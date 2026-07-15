@@ -88,27 +88,27 @@ export default function Contact() {
           </p>
 
           <div className={styles.linksGrid}>
-            <a href="mailto:your.email@example.com" className={styles.linkCard}>
+            <a href="mailto:ahmad.shakil444@gmail.com" className={styles.linkCard}>
               <Mail className={styles.linkIcon} size={24} />
               <div>
                 <h3>Email</h3>
-                <p>your.email@example.com</p>
+                <p>ahmad.shakil444@gmail.com</p>
               </div>
             </a>
 
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className={styles.linkCard}>
+            <a href="https://linkedin.com/in/shakil-ahmad-6b3a79126" target="_blank" rel="noopener noreferrer" className={styles.linkCard}>
               <LinkedinIcon className={styles.linkIcon} size={24} />
               <div>
                 <h3>LinkedIn</h3>
-                <p>linkedin.com/in/yourusername</p>
+                <p>linkedin.com/in/shakil-ahmad-6b3a79126</p>
               </div>
             </a>
 
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className={styles.linkCard}>
+            <a href="https://github.com/ahmad-ds" target="_blank" rel="noopener noreferrer" className={styles.linkCard}>
               <GithubIcon className={styles.linkIcon} size={24} />
               <div>
                 <h3>GitHub</h3>
-                <p>github.com/yourusername</p>
+                <p>github.com/ahmad-ds</p>
               </div>
             </a>
           </div>

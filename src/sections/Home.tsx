@@ -16,7 +16,7 @@ export default function Home() {
         
         {/* Resume Button - satisfying the mandatory requirement */}
         <a 
-          href="/resume.pdf" 
+          href="/ShakilAhmadUpdated.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
           className={styles.resumeButton}
