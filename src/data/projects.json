@@ -5,7 +5,7 @@
       "title": "Clinic Management System",
       "tagline": "A modern patient and appointment management platform.",
       "description": "A full-stack clinic management application that enables patient registration, appointment booking, medical history management with image uploads, and secure authentication. Designed with scalability and clean architecture in mind.",
-      "image": "/images/projects/clinic-management.webp",
+      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
       "technologies": [
         "React",
         "TypeScript",
@@ -34,7 +34,7 @@
       "title": "TaskFlow",
       "tagline": "A productivity-focused task management application.",
       "description": "A MERN stack Todo application with authentication, task prioritization, CRUD operations, and responsive UI. Built to practice scalable frontend architecture and backend API development.",
-      "image": "/images/projects/todo-app.webp",
+      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
       "technologies": [
         "React",
         "Redux Toolkit",
@@ -60,7 +60,7 @@
       "title": "Splitwise Clone",
       "tagline": "Track expenses and settle balances effortlessly.",
       "description": "An expense sharing application that allows users to create groups, add expenses, calculate balances, and manage settlements using efficient backend business logic.",
-      "image": "/images/projects/splitwise.webp",
+      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
       "technologies": [
         "React",
         "TypeScript",
@@ -86,7 +86,7 @@
       "title": "Developer Portfolio",
       "tagline": "A personal portfolio showcasing my work and journey.",
       "description": "A modern, responsive portfolio website built with React and TypeScript featuring smooth animations, project showcase, timeline, and contact section.",
-      "image": "/images/projects/portfolio.webp",
+      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
       "technologies": [
         "React",
         "TypeScript",

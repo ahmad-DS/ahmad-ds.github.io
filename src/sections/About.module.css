@@ -1,4 +1,19 @@
 .about {
     min-height: 100vh;
     scroll-margin-top: 80px;
+    border: 4px red dotted
+}
+
+.timelineContainer {
+    position: relative;
+}
+
+.timelineContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 4px;
+    background-color: gray;
 }
