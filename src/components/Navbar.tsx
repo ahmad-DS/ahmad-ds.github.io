@@ -42,10 +42,10 @@ function Navbar() {
         {/* Mandatory Special Resume Link */}
         <div className={`${styles.navLink} ${styles.resumeLink}`}>
           <a 
-            href="/ShakilAhmadUpdated.pdf" 
+            href="/Shakil_Ahmad_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
-            download="ShakilAhmadUpdated.pdf"
+            download="Shakil_Ahmad_Resume.pdf"
           >
             <span>Resume</span>
             <Download size={14} />
