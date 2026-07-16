@@ -5,7 +5,7 @@
       "title": "Clinic Management System",
       "tagline": "A modern patient and appointment management platform.",
       "description": "A full-stack clinic management application that enables patient registration, appointment booking, medical history management with image uploads, and secure authentication. Designed with scalability and clean architecture in mind.",
-      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
+      "image": "/images/projects/cms-patient-directory-page.png",
       "technologies": [
         "React",
         "TypeScript",

@@ -30,7 +30,7 @@ export default function Home() {
       <div className={styles.rightCol}>
         <div className={styles.imageCard}>
           <img
-            src="https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c"
+            src="/images/profile2.jpeg"
             alt="Shakil Ahmad Profile"
             className={styles.profileImage}
           />
