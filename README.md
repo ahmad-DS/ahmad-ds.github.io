@@ -27,7 +27,7 @@ The goal is to create a polished online presence that reflects my growth as a Fu
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/ahmad-DS/ahmad-ds.github.io.git
    cd portfolio
    ```
 2. Install dependencies:
