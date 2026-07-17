@@ -26,21 +26,22 @@
       "category": "Full Stack",
       "status": "In Progress",
       "featured": true,
-      "github": "https://github.com/username/clinic-management",
-      "liveLink": "https://clinic.example.com"
+      "github": "https://github.com/ahmad-DS/clinicApp",
+      "liveLink": "https://warshihospitals.netlify.app/"
     },
     {
       "id": "todo-app",
       "title": "TaskFlow",
       "tagline": "A productivity-focused task management application.",
       "description": "A MERN stack Todo application with authentication, task prioritization, CRUD operations, and responsive UI. Built to practice scalable frontend architecture and backend API development.",
-      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
+      "image": "/images/projects/taskflow-landing.png",
       "technologies": [
         "React",
         "Redux Toolkit",
         "Node.js",
         "Express",
         "MongoDB",
+        "Bcrypt",
         "JWT"
       ],
       "features": [
@@ -52,47 +53,48 @@
       "category": "Full Stack",
       "status": "Completed",
       "featured": false,
-      "github": "https://github.com/username/taskflow",
-      "liveLink": "https://taskflow.example.com"
+      "github": "https://github.com/ahmad-DS/Todo-App",
+      "liveLink": "https://todo-app-132h.onrender.com"
     },
     {
-      "id": "splitwise-clone",
-      "title": "Splitwise Clone",
-      "tagline": "Track expenses and settle balances effortlessly.",
-      "description": "An expense sharing application that allows users to create groups, add expenses, calculate balances, and manage settlements using efficient backend business logic.",
-      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
+      "id": "trendora-ecommerce",
+      "title": "Trendora Shopping App",
+      "tagline": "Modern Full-Stack E-Commerce Platform for a Seamless Shopping Experience.",
+      "description": "A full-stack e-commerce platform that supports secure user authentication, product management, category filtering, shopping cart, wishlist, and order management. Designed using a modular architecture with reusable components, ensuring scalability, maintainability, and a responsive user experience.",
+      "image": "/images/projects/trendora-landing.jpeg",
       "technologies": [
         "React",
-        "TypeScript",
+        "Redux Toolkit",
+        "Context API",
+        "Tailwind CSS",
         "Node.js",
         "Express",
         "MongoDB",
-        "Redis"
+        "JWT"
       ],
       "features": [
-        "Expense Tracking",
-        "Group Management",
-        "Balance Calculation",
-        "Settlement History"
+        "User Authentication",
+        "Product Management",
+        "Category Filtering",
+        "Shopping Cart",
+        "Wishlist",
+        "Order Management",
+        "Responsive Design",
+        "Modular Architecture"
       ],
       "category": "Full Stack",
-      "status": "In Progress",
+      "status": "Completed",
       "featured": false,
-      "github": "https://github.com/username/splitwise-clone",
-      "liveLink": "https://splitwise.example.com"
+      "github": "https://github.com/username/taskflow",
+      "liveLink": "https://trendoraapp.vercel.app/"
     },
     {
       "id": "portfolio",
       "title": "Developer Portfolio",
       "tagline": "A personal portfolio showcasing my work and journey.",
       "description": "A modern, responsive portfolio website built with React and TypeScript featuring smooth animations, project showcase, timeline, and contact section.",
-      "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c",
-      "technologies": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Framer Motion"
-      ],
+      "image": "/images/projects/portfolio-home.png",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       "features": [
         "Responsive Design",
         "Dark Mode",
@@ -102,8 +104,8 @@
       "category": "Frontend",
       "status": "Completed",
       "featured": false,
-      "github": "https://github.com/username/portfolio",
-      "liveLink": "https://yourportfolio.com"
+      "github": "https://github.com/ahmad-DS/ahmad-ds.github.io",
+      "liveLink": "https://ahmad-ds.github.io"
     }
   ]
 }
