@@ -1,32 +1,79 @@
-# React + TypeScript + Vite
+# Shakil Ahmad | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern personal portfolio website built with React, TypeScript, and Vite to showcase my background, technical skills, experience, featured projects, and contact information. The project is designed to present my work in a clean, responsive, and professional format for recruiters, collaborators, and clients.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio highlights:
 
-## React Compiler
+- A personal introduction and professional summary
+- A timeline-based about section
+- Key technical skills and competencies
+- Featured projects with descriptions and technologies
+- A contact section with resume access
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal is to create a polished online presence that reflects my growth as a Full Stack Developer and my passion for building scalable web applications.
 
-## Expanding the Oxlint configuration
+## Tech Stack Used
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React 19
+- TypeScript
+- Vite
+- CSS Modules
+- Lucide React
+- Oxlint
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Setup & Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repository-url>
+   cd portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the local preview in your browser at:
+   ```text
+   http://localhost:5173
+   ```
+5. To build the project for production:
+   ```bash
+   npm run build
+   ```
+
+## Key Features
+
+- Responsive and modern UI
+- Project showcase section
+- About section with experience timeline
+- Skills section for technical expertise
+- Downloadable resume link
+- Contact section for professional inquiries
+
+## Visuals
+
+Here are a few screenshots from the portfolio:
+
+![Portfolio Home](public/images/portfolio-ss/Screenshot%202026-07-17%20093540.png)
+
+![Portfolio Sections](public/images/portfolio-ss/Screenshot%202026-07-17%20093607.png)
+
+![Portfolio Project View](public/images/portfolio-ss/Screenshot%202026-07-17%20093626.png)
+
+![Portfolio Contact Section](public/images/portfolio-ss/Screenshot%202026-07-17%20093652.png)
+
+## Live Preview
+
+Run locally with:
+
+```bash
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+If you want, I can also tailor this README further for GitHub-style presentation, with a more polished project tagline, badges, and a stronger “About Me” section.
