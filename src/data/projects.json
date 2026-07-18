@@ -33,7 +33,7 @@
       "id": "todo-app",
       "title": "TaskFlow",
       "tagline": "A productivity-focused task management application.",
-      "description": "A MERN stack Todo application with authentication, task prioritization, CRUD operations, and responsive UI. Built to practice scalable frontend architecture and backend API development.",
+      "description": "A full-stack Todo Management application with secure authentication, CRUD operations, and a scalable backend architecture following Low-Level Design (LLD) principles using React, Node.js, Express, and MongoDB.",
       "image": "/images/projects/taskflow-landing.png",
       "technologies": [
         "React",
