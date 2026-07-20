@@ -24,6 +24,19 @@ import styles from "./Navbar.module.css";
 import { Download } from "lucide-react";
 
 function Navbar() {
+  const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // 1. Programmatically trigger a hidden download action
+    const downloadLink = document.createElement("a");
+    downloadLink.href = "/Shakil_Ahmad_Resume.pdf";
+    downloadLink.download = "Shakil_Ahmad_Resume.pdf";
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+
+    // 2. Do NOT run e.preventDefault() here! 
+    // Letting the native click continue allows target="_blank" to fire normally,
+    // which handles cleanly opening the preview in the new tab.
+  };
   return (
     <nav className={styles.container}>
       {/* Brand Logo / Name */}
@@ -45,7 +58,8 @@ function Navbar() {
             href="/Shakil_Ahmad_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
-            download="Shakil_Ahmad_Resume.pdf"
+            onClick={handleResumeClick}
+            // download="Shakil_Ahmad_Resume.pdf"
           >
             <span>Resume</span>
             <Download size={14} />
