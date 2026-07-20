@@ -25,6 +25,7 @@ import { Download } from "lucide-react";
 
 function Navbar() {
   const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    console.log("event triggered", e);
     // 1. Programmatically trigger a hidden download action
     const downloadLink = document.createElement("a");
     downloadLink.href = "/Shakil_Ahmad_Resume.pdf";
